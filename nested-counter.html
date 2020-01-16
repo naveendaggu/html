@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+body{
+		counter-reset:section;
+	}
+h1{
+	counter-reset:subsection;
+}
+h1::before{
+			counter-increment: section;
+			content:"section " counter(section)".";
+		  }
+h2::before{
+			counter-increment:subsection;
+			content: counter(section)"."counter(subsection)" ";
+		   }
+</style>
+</head>
+<body>
+<h1>java technology</h1>
+<h2>core java</h2>
+<h2>servlet</h2>
+<h2>jsp</h2>
+<h2>spring</h2>
+<h2>hibernate</h2>
+<h1>web technology</h1>
+<h2>html5</h2>
+<h2>css3</h2>
+<h2>jquery</h2>
+<h2>bootstrap</h2>
+</body>
+</html>

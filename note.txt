@@ -1,0 +1,13 @@
+CSS OPACITY:
+-> it deals with the clarity of an image;
+-> used to specify the transperency of an element
+:how to apply css opacity setting:
+-> uniformly across the entire object and the capacity value is defined interm of digital value less than 1.
+-> the lesser capacity value displays the greater opacity.
+
+
+CSS OVERFLOW:
+visible- it specifies that overflow is not clipped.
+	  it renders outside the elements box .
+
+CSS POSITIONING

@@ -1,0 +1,25 @@
+<html>
+<head>
+<style>
+div{
+	width:200px;
+	height:100px;
+	background:green;
+	-webkit-animation: myfirst 6s;
+	animation:myfirst 5s;
+	}
+@-webkit-keyframes myfirst{
+							from{background:red;} 
+							to{background:green;}
+						   }
+@keyframes myfirst{
+					from{background:red;}
+					to{background:yellow;}
+				   }
+</style>
+</head>
+<body>
+<p><b>note:</b> the IE 9 and earlier versions dont support css3 animation property. </p>
+<div></div>
+</body>
+</html>
